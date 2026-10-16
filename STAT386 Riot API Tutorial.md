@@ -1,6 +1,6 @@
 # From Riot API to Match Statistics: A Python Walkthrough
 
-League match history is a useful example of a common data-science task: data are available through an API, but they arrive as nested JSON rather than as a tidy table. In this tutorial, we will use Python to request recent League of Legends match data, keep only Ranked Solo/Duo games, calculate KDA and win rate, and plot how those statistics change across matches.
+League of Legends match history is a useful example of a common data-science task: data are available through an API, but they arrive as nested JSON rather than as a tidy table. In this tutorial, we will use Python to request recent League of Legends match data, keep only Ranked Solo/Duo games, calculate KDA and win rate, and plot how those statistics change across matches.
 
 You will need a Riot developer API key and the Python packages `requests`, `pandas`, `matplotlib`, and `seaborn`. Install the packages with:
 
